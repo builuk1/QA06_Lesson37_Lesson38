@@ -6,9 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import os
 
-from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-
 caps = {}
 # caps["pageLoadStrategy"] = "normal"  #  complete
 caps["pageLoadStrategy"] = "eager"  #  interactive
